@@ -1,432 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vignesh</title>
-    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="Css/style.css" />
-    <!--aos link-->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  </head>
-  <body>
-    <!-- header  -->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav-logo">vignesh</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vignesh</title>
+  <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="Css/style.css" />
+  <!--aos link-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list grid">
-            <li class="nav-item">
-              <a href="#home" class="nav-link"
-                ><i class="fa-solid fa-house nav-icon"></i> Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link"
-                ><i class="fa-solid fa-user nav-icon"></i> About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link"
-                ><i class="fa-solid fa-file nav-icon"></i> Skills</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#portfolio" class="nav-link"
-                ><i class="fa-solid fa-image nav-icon"></i> Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link"
-                ><i class="fa-solid fa-message nav-icon"></i> Contact</a
-              >
-            </li>
-          </ul>
-          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+</head>
+
+<body>
+  <!-- header  -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">vignesh</a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list grid">
+          <li class="nav-item">
+            <a href="#home" class="nav-link"><i class="fa-solid fa-house nav-icon"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><i class="fa-solid fa-user nav-icon"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link"><i class="fa-solid fa-file nav-icon"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link"><i class="fa-solid fa-image nav-icon"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><i class="fa-solid fa-message nav-icon"></i> Contact</a>
+          </li>
+        </ul>
+        <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+      </div>
+
+      <div class="nav-btns">
+        <!-- theme btn  -->
+        <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
         </div>
+      </div>
+    </nav>
+  </header>
 
-        <div class="nav-btns">
-          <!-- theme btn  -->
-          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home-container container grid">
+        <div class="home-content grid">
+          <div class="home-social" data-aos="fade-right" data-aos-duration="1300">
+            <a href="https://www.linkedin.com/in/vignesh-c-/" target="_blank" class="home-social-icon">
+              <i class="fa-brands fa-linkedin-in fa-beat-fade"></i>
+            </a>
 
-          <div class="nav-toggle" id="nav-toggle">
-            <i class="fa-solid fa-bars"></i>
+            <a href="https://github.com/vignesh-vc/VIGNESH" target="_blank" class="home-social-icon">
+              <i class="fa-brands fa-github fa-beat-fade"></i>
+            </a>
           </div>
-        </div>
-      </nav>
-    </header>
 
-    <main class="main">
-      <section class="home section" id="home">
-        <div class="home-container container grid">
-          <div class="home-content grid">
-            <div class="home-social"data-aos="fade-right"  data-aos-duration="1300">
-              <a
-                href="https://www.linkedin.com/in/vignesh-c-/"
-                target="_blank"
-                class="home-social-icon"
-              >
-                <i class="fa-brands fa-linkedin-in fa-beat-fade"></i>
-              </a>
-             
-              <a
-                href="https://github.com/vignesh-vc/VIGNESH"
-                target="_blank"
-                class="home-social-icon"
-              >
-                <i class="fa-brands fa-github fa-beat-fade"></i>
-              </a>
-            </div>
-
-            <div class="home-img"data-aos="fade-down-right"   data-aos-duration="1000">
-            <img src="Assets/1704171369730.jpg" style="border-radius: 15px 50px;" alt="">  
-            </div>
-
-            <div class="home-data"data-aos="fade-down"  data-aos-duration="1000">
-              <h1 class="home-title">Hi, I am Vignesh</h1>
-              <h3 class="home-subtitle">Frontend Developer</h3>
-              <p class="home-description">
-                Passionate frontend developer specializing in pixel-perfect web
-                design.
-              </p>
-              <a href="#contact" class="button button-flex">
-                Contact Me <i class="fa-regular fa-envelope button-icon fa-beat-fade"></i>
-              </a>
-            </div>
+          <div class="home-img" data-aos="fade-down-right" data-aos-duration="1000">
+            <!-- <img src="Assets/undraw_Male_avatar_g98d.png" style="border-radius: 25px;" alt=""> -->
           </div>
-          <div class="home-scroll">
-            <a href="#about" class="home-scroll-button button-flex">
-              <!-- <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i> -->
-              <img class="home-scroll-mouse" src="Assets/mouse.svg" alt="" />
-              <span class="home-scroll-name">Scroll down</span>
-              <i class="fa-solid fa-angles-down home-scroll-arrow fa-fade"></i>
+
+          <div class="home-data" data-aos="fade-down" data-aos-duration="1000">
+            <h1 class="home-title">Hi, I am Vignesh</h1>
+            <h3 class="home-subtitle">Frontend Developer</h3>
+            <p class="home-description">
+              Passionate frontend developer specializing in pixel-perfect web
+              design.
+            </p>
+            <a href="#contact" class="button button-flex">
+              Contact Me <i class="fa-regular fa-envelope button-icon fa-beat-fade"></i>
             </a>
           </div>
         </div>
-      </section>
-
-      <section class="about section" id="about">
-        <h2 class="section-title"data-aos="fade-down"  data-aos-duration="1000">About Me</h2>
-        <span class="section-subtitle"data-aos="fade-down"  data-aos-duration="1000">My Introduction</span>
-
-        <div class="about-container container grid"data-aos="fade-right"  data-aos-duration="1300">
-          <img src="Assets/about image1.jpeg" style="border-radius: 15px 50px;" alt="" class="about-img" />
-
-          <div class="about-data"data-aos="fade-down"  data-aos-duration="1300">
-            <p class="about-description">
-              An accomplished Frontend Developer with a passion for creating
-              seamless user experiences. With a solid foundation in HTML, CSS,
-              and JavaScript, I specialize in crafting visually captivating and
-              intuitively navigable websites. Leveraging my expertise in
-              responsive design and I bring concepts to life,
-              ensuring each project is a masterpiece of precision and
-              functionality.
-            </p>
-            </div>
-
-            <div class="about-buttons"data-aos="fade-right"  data-aos-duration="1300">
-              <a
-                download=""
-                href="/Assets/Resume.pdf"
-                class="button button-flex"
-              >
-                Download Resume<i
-                  class="fa-solid fa-file-arrow-down button-icon fa-bounce"
-                ></i>
-              </a>
-            </div>
-          </div>
+        <div class="home-scroll">
+          <a href="#about" class="home-scroll-button button-flex">
+            <!-- <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i> -->
+            <img class="home-scroll-mouse" src="Assets/mouse.svg" alt="" />
+            <span class="home-scroll-name">Scroll down</span>
+            <i class="fa-solid fa-angles-down home-scroll-arrow fa-fade"></i>
+          </a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- skills and qualification  -->
-      <section class="skills section" id="skills">
-        <h2 class="section-title"data-aos="fade-down"  data-aos-duration="1000">Skills</h2>
-        <span class="section-subtitle"data-aos="fade-down"  data-aos-duration="1000">My Technical Skills</span>
-        <div class="skills-content container">
-          <div class="skills-name"data-aos="fade-down"  data-aos-duration="1000">JavaScript</div>
-          <div class="skills-name"data-aos="fade-down"  data-aos-duration="1300">React JS</div>
-         <div class="skills-name"data-aos="fade-down"  data-aos-duration="1600">Bootstrap</div>
-          <div class="skills-name"data-aos="fade-down"  data-aos-duration="1900">CSS</div>
-        <div class="skills-name"data-aos="fade-down"  data-aos-duration="2100">SQL</div>
-          <div class="skills-name"data-aos="fade-down"  data-aos-duration="2300">Jquery</div>
-          <div class="skills-name"data-aos="fade-down"  data-aos-duration="2400">Python</div>
+    <section class="about section" id="about">
+      <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">About Me</h2>
+      <span class="section-subtitle" data-aos="fade-down" data-aos-duration="1000">My Introduction</span>
+
+      <div class="about-container container grid" data-aos="fade-right" data-aos-duration="1300">
+        <img src="Assets/Freelance pic1.png" style="border-radius: 25px;" alt="" class="about-img" />
+
+        <div class="about-data" data-aos="fade-down" data-aos-duration="1300">
+          <p class="about-description">
+            An accomplished Frontend Developer with a passion for creating
+            seamless user experiences. With a solid foundation in HTML, CSS,
+            and JavaScript, I specialize in crafting visually captivating and
+            intuitively navigable websites. Leveraging my expertise in
+            responsive design and I bring concepts to life,
+            ensuring each project is a masterpiece of precision and
+            functionality.
+          </p>
         </div>
-      </section>
-      <section class="qualification section">
-        <h2 class="section-title"data-aos="fade-down"  data-aos-duration="1000">Qualification</h2>
-        <span class="section-subtitle"data-aos="fade-down"  data-aos-duration="1000">My journey</span>
 
-        <div class="qualification-container container">
-          <div class="qualification-tabs">
-            <div
-              class="qualification-button button-flex qualification-active"
-              data-target="#education"
-              data-aos="fade-down"  data-aos-duration="1600"            >
-              <i class="fa-solid fa-graduation-cap qualification-icon fa-fade"></i>
-              Education
-            </div>
-          
-          </div>
-
-          <div class="qualification-section"data-aos="fade-right"  data-aos-duration="1600">
-            <div
-              class="qualification-content qualification-active"
-              data-content
-              id="education"
-            >
-              <!-- qualifi 1 -->
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title">
-                    B.TECH-INFORMATION TECHNOLOGY
-                  </h3>
-                  <span class="qualification-subtitle">K.S.R COLLEGE OF ENGINEERING</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days fa-fade"></i>
-                    2020 - 2024
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-              </div>
-
-              <!-- qualifi 2 -->
-
-              <div class="qualification-data">
-                <div></div>
-
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification-title">
-                    HSC
-                  </h3>
-                  <span class="qualification-subtitle">GOVT SCHOOL.</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days fa-fade"></i>
-                    2019 - 2020
-                  </div>
-                </div>
-              </div>
-
-              <!-- qualifi 3 -->
-
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title">SSLC</h3>
-                  <span class="qualification-subtitle">GOVT SCHOOL</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days fa-fade"></i>
-                    2017 - 2018
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-              </div>
-
-            </div>
-
-  
-            </div>
-          </div>
+        <div class="about-buttons" data-aos="fade-right" data-aos-duration="1300">
+          <a download="" href="https://drive.google.com/file/d/1zvzvK0dExlnbnq9hf6xf85druxDqns73/view?usp=drive_link" class="button button-flex">
+            Download Resume<i class="fa-solid fa-file-arrow-down button-icon fa-bounce"></i>
+          </a>
         </div>
-      </section>
-      <!-- portfolio -->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section-title"data-aos="fade-down"  data-aos-duration="1000">Projects</h2>
-        <span class="section-subtitle"data-aos="fade-down"  data-aos-duration="1000">Most recent work</span>
+      </div>
+      </div>
+    </section>
 
-        <div class="portfolio-container container swiper-container"data-aos="fade-down"  data-aos-duration="1600">
-          <div class="swiper-wrapper">
-            <!-- project1  -->
-            <div class="portfolio-content grid swiper-slide">
-              <img src="Assets/Nostra project.png" alt="" class="portfolio-img" />
+    <!-- skills and qualification  -->
+    <section class="skills section" id="skills">
+      <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">Skills</h2>
+      <span class="section-subtitle" data-aos="fade-down" data-aos-duration="1000">My Technical Skills</span>
+      <div class="skills-content container">
+        <div class="skills-name" data-aos="fade-down" data-aos-duration="1000">JavaScript</div>
+        <div class="skills-name" data-aos="fade-down" data-aos-duration="1300">React JS</div>
+        <div class="skills-name" data-aos="fade-down" data-aos-duration="2100">Html</div>
+        <div class="skills-name" data-aos="fade-down" data-aos-duration="1900">CSS</div>
+        <div class="skills-name" data-aos="fade-down" data-aos-duration="1600">Bootstrap</div>
+        <div class="skills-name" data-aos="fade-down" data-aos-duration="2400">tailwind Css</div>
+        <div class="skills-name" data-aos="fade-down" data-aos-duration="2300">Sql</div>
+     
+      </div>
+    </section>
+    <section class="qualification section">
+      <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">Qualification</h2>
+      <span class="section-subtitle" data-aos="fade-down" data-aos-duration="1000">My journey</span>
 
-              <div class="portfolio-data">
-                <h3 class="portfolio-title">Business Websites</h3>
-                <p class="portfolio-description">
-                  business sites that reflect your brand and engage
-                  customers effectively.
-                </p>
-                <a
-                  href="https://nostra-e-commerce.netlify.app/"
-                  target="_blank"
-                  class="button button-flex button-small portfolio-button"
-                  >Project Link
-                  <i class="fa-solid fa-arrow-right button-icon fa-fade"></i
-                ></a>
-              </div>
-            </div>
-            <!-- project2  -->
-            <div class="portfolio-content grid swiper-slide">
-              <img src="Assets/PORTFOLIO WEBSITE.png" alt="" class="portfolio-img" />
-
-              <div class="portfolio-data">
-                <h3 class="portfolio-title">Portfolio Websites</h3>
-                <p class="portfolio-description">
-                  Impressive portfolio sites that showcase your talents with a
-                  flawless user experience.
-                </p>
-                <a
-                  href="https://vignesh-vc.netlify.app/"
-                  target="_blank"
-                  class="button button-flex button-small portfolio-button"
-                  >Project Link
-                  <i class="fa-solid fa-arrow-right button-icon fa-fade"></i
-                ></a>
-              </div>
-            </div>
-            <!-- project3  
-            <div class="portfolio-content grid swiper-slide">
-              <img src="Assets/project3.svg" alt="" class="portfolio-img" />
-
-              <div class="portfolio-data">
-                <h3 class="portfolio-title">Landing Pages</h3>
-                <p class="portfolio-description">
-                  Compelling landing pages that drive conversions and engage
-                  your audience.
-                </p>
-                <a
-                  href="https://github.com/harisahmad59/Hypefolio"
-                  target="_blank"
-                  class="button button-flex button-small portfolio-button"
-                  >Project Link
-                  <i class="fa-solid fa-arrow-right button-icon"></i
-                ></a>
-              </div>
-            </div> -->
+      <div class="qualification-container container">
+        <div class="qualification-tabs">
+          <div class="qualification-button button-flex qualification-active" data-target="#education"
+            data-aos="fade-down" data-aos-duration="1600">
+            <i class="fa-solid fa-graduation-cap qualification-icon fa-fade"></i>
+            Education
           </div>
-          <div class="swiper-angles">
-            <div class="swiper-button-next">
-              <i class="fa-solid fa-angle-right swiper-icon fa-fade"></i>
-            </div>
-            <div class="swiper-button-prev">
-              <i class="fa-solid fa-angle-left swiper-icon fa-fade"></i>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
+
         </div>
-      </section>
-      <section class="project-contact section">
-        <div class="project-bg">
-          <div class="project-container container grid">
-            <div class="project-data"data-aos="fade-down"  data-aos-duration="1000">
-              <h2 class="project-title">Do you have a new project?</h2>
-              <p class="project-description">
-                Contact me now and get a 50% discount on your new project.
+
+        <div class="qualification-section" data-aos="fade-right" data-aos-duration="1600">
+          <div class="qualification-content qualification-active" data-content id="education">
+            <!-- qualifi 1 -->
+            <div class="qualification-data">
+              <div>
+                <h3 class="qualification-title">
+                  B.TECH-INFORMATION TECHNOLOGY
+                </h3>
+                <span class="qualification-subtitle">K.S.R COLLEGE OF ENGINEERING</span>
+                <div class="qualification-date">
+                  <i class="fa-solid fa-calendar-days fa-fade"></i>
+                  2020 - 2024
+                </div>
+              </div>
+              <div>
+                <span class="qualification-round"></span>
+                <span class="qualification-line"></span>
+              </div>
+            </div>
+
+            <!-- qualifi 2 -->
+
+            <div class="qualification-data">
+              <div></div>
+
+              <div>
+                <span class="qualification-round"></span>
+                <span class="qualification-line"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification-title">
+                  HSC
+                </h3>
+                <span class="qualification-subtitle">GOVT SCHOOL.</span>
+                <div class="qualification-date">
+                  <i class="fa-solid fa-calendar-days fa-fade"></i>
+                  2019 - 2020
+                </div>
+              </div>
+            </div>
+
+            <!-- qualifi 3 -->
+
+            <div class="qualification-data">
+              <div>
+                <h3 class="qualification-title">SSLC</h3>
+                <span class="qualification-subtitle">GOVT SCHOOL</span>
+                <div class="qualification-date">
+                  <i class="fa-solid fa-calendar-days fa-fade"></i>
+                  2017 - 2018
+                </div>
+              </div>
+              <div>
+                <span class="qualification-round"></span>
+                <span class="qualification-line"></span>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">Projects</h2>
+      <span class="section-subtitle" data-aos="fade-down" data-aos-duration="1000">Most recent work</span>
+
+      <div class="portfolio-container container swiper-container" data-aos="fade-down" data-aos-duration="1600">
+        <div class="swiper-wrapper">
+          <!-- project1  -->
+          <div class="portfolio-content grid swiper-slide">
+            <img src="Assets/Nostra project.png" alt="" class="portfolio-img" />
+
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Business Websites</h3>
+              <p class="portfolio-description">
+                business sites that reflect your brand and engage
+                customers effectively.
               </p>
-              <a href="#contact" class="button button-flex button-white"
-                >Contact Me
-                <i
-                  class="fa-regular fa-comment-dots project-icon button-icon fa-beat-fade"
-                ></i>
-              </a>
-            </div>
-            <img src="Assets/Icons/contactme.png" alt="" class="project-img" />
-          </div>
-        </div>
-      </section>
-      <!-- contact me  -->
-      <section class="contact section" id="contact">
-        <h2 class="section-title"data-aos="fade-down"  data-aos-duration="1000">Contact me</h2>
-        <span class="section-subtitle"data-aos="fade-down"  data-aos-duration="1000">Get in touch</span>
-
-        <div class="contact-container container grid">
-          <div>
-            <div class="contact-info"data-aos="fade-right" data-aos-duration="1600">
-              <i class="fa-regular fa-envelope contact-icon fa-fade"></i>
-              <div>
-                <h3 class="contact-title">Email</h3>
-                <a
-                  href="mailto:ceit58vignesh24@gmail.com"
-                  target="_blank"
-                  class="contact-subtitle"
-                  >ceit58vignesh24@gmail.com</a
-                >
-              </div>
-            </div>
-            <div class="contact-info"data-aos="fade-right"  data-aos-duration="2000">
-              <i class="fa-brands fa-linkedin-in contact-icon fa-fade"></i>
-              <div>
-                <h3 class="contact-title">Linkedin</h3>
-                <a
-                  class="contact-subtitle"
-                  href="https://www.linkedin.com/in/vignesh-c-/"
-                  target="_blank"
-                  >@vignesh-c</a
-                >
-              </div>
+              <a href="https://nostra-e-commerce.netlify.app/" target="_blank"
+                class="button button-flex button-small portfolio-button">Project Link
+                <i class="fa-solid fa-arrow-right button-icon fa-fade"></i></a>
             </div>
           </div>
-        </div>
-      </section>
+          <!-- project2  -->
+          <div class="portfolio-content grid swiper-slide">
+            <img src="Assets/Weather .png" alt="" class="portfolio-img" />
 
-      <!-- footer  -->
-      <footer class="footer">
-        <div class="footer-bg">
-          <div class="footer-container container grid">
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Weather Prediction</h3>
+              <!-- <p class="portfolio-description">
+                Impressive portfolio sites that showcase your talents with a
+                flawless user experience.
+              </p> -->
+              <a href="https://weatherapi-webapp.vercel.app/" target="_blank"
+                class="button button-flex button-small portfolio-button">Project Link
+                <i class="fa-solid fa-arrow-right button-icon fa-fade"></i></a>
+            </div>
+          </div>
+          <!--Project 3-->
+           <div class="portfolio-content grid swiper-slide">
+            <img src="Assets/actodo .png" alt="" class="portfolio-img" />
+
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Actodo Project</h3>
+              <!-- <p class="portfolio-description">
+                Impressive portfolio sites that showcase your talents with a
+                flawless user experience.
+              </p> -->
+              <a href="https://actodo-pro.vercel.app/" target="_blank"
+                class="button button-flex button-small portfolio-button">Project Link
+                <i class="fa-solid fa-arrow-right button-icon fa-fade"></i></a>
+            </div>
+          </div>
+
+           <!--Project 4-->
+           <div class="portfolio-content grid swiper-slide">
+            <img src="Assets/Greenden.png" alt="" class="portfolio-img" />
+
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Greenden Website</h3>
+              <!-- <p class="portfolio-description">
+                Impressive portfolio sites that showcase your talents with a
+                flawless user experience.
+              </p> -->
+              <a href="https://vignesh-vc.github.io/greenden/" target="_blank"
+                class="button button-flex button-small portfolio-button">Project Link
+                <i class="fa-solid fa-arrow-right button-icon fa-fade"></i></a>
+            </div>
+          </div>
+
+          <!--Project 5-->
+          <div class="portfolio-content grid swiper-slide">
+            <img src="Assets/Registration .png" alt="" class="portfolio-img" />
+
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Registration Form</h3>
+              <!-- <p class="portfolio-description">
+                Impressive portfolio sites that showcase your talents with a
+                flawless user experience.
+              </p> -->
+              <a href="https://registration-form-vc.netlify.app/" target="_blank"
+                class="button button-flex button-small portfolio-button">Project Link
+                <i class="fa-solid fa-arrow-right button-icon fa-fade"></i></a>
+            </div>
+          </div>
+
+          
+          <!--Project 6-->
+          <div class="portfolio-content grid swiper-slide">
+            <img src="Assets/udemy.png" alt="" class="portfolio-img" />
+
+            <div class="portfolio-data">
+              <h3 class="portfolio-title">Udemy Clone</h3>
+              <!-- <p class="portfolio-description">
+                Impressive portfolio sites that showcase your talents with a
+                flawless user experience.
+              </p> -->
+              <a href="https://vignesh-vc.github.io/udemy-clone/" target="_blank"
+                class="button button-flex button-small portfolio-button">Project Link
+                <i class="fa-solid fa-arrow-right button-icon fa-fade"></i></a>
+            </div>
+          </div>
+         
+           
+        </div>
+        <div class="swiper-angles">
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-angle-right swiper-icon fa-fade"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-angle-left swiper-icon fa-fade"></i>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="project-contact section">
+      <div class="project-bg">
+        <div class="project-container container grid">
+          <div class="project-data" data-aos="fade-down" data-aos-duration="1000">
+            <h2 class="project-title">Do you have a new project?</h2>
+            <p class="project-description">
+              Contact me now and get a 50% discount on your new project.
+            </p>
+            <a href="#contact" class="button button-flex button-white">Contact Me
+              <i class="fa-regular fa-comment-dots project-icon button-icon fa-beat-fade"></i>
+            </a>
+          </div>
+          <img src="Assets/Icons/contactme.png" alt="" class="project-img" />
+        </div>
+      </div>
+    </section>
+    <!-- contact me  -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">Contact me</h2>
+      <span class="section-subtitle" data-aos="fade-down" data-aos-duration="1000">Get in touch</span>
+
+      <div class="contact-container container grid">
+        <div>
+          <div class="contact-info" data-aos="fade-right" data-aos-duration="1600">
+            <i class="fa-regular fa-envelope contact-icon fa-fade"></i>
             <div>
-              <h1 class="footer-title" data-aos="fade-down"  data-aos-duration="1000">vignesh</h1>
-              <span class="footer-subtitle">Frontend developer</span>
-            </div>
-            <ul class="footer-links"data-aos="fade-down"  data-aos-duration="1300">
-              
-              <li>
-                <a href="#portfolio" class="footer-link">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact" class="footer-link">Contact</a>
-              </li>
-            </ul>
-
-            <div class="footer-socials"data-aos="fade-down"  data-aos-duration="1600">
-              <a
-                href="https://www.linkedin.com/in/vignesh-c-/"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="fa-brands fa-linkedin-in fa-fade"></i>
-              </a>
-              <a
-                href="https://github.com/vignesh-vc/VIGNESH"
-                target="_blank"
-                target="_blank"
-                class="footer-social"
-              >
-                <i class="fa-brands fa-github fa-fade"></i>
-              </a>
-             
+              <h3 class="contact-title">Email</h3>
+              <a href="mailto:ceit58vignesh24@gmail.com" target="_blank"
+                class="contact-subtitle">ceit58vignesh24@gmail.com</a>
             </div>
           </div>
-          <p class="footer-copy"data-aos="fade-down"  data-aos-duration="1000">@copyright Designed Devloped by Vignesh❤️</p>
+          <div class="contact-info" data-aos="fade-right" data-aos-duration="2000">
+            <i class="fa-brands fa-linkedin-in contact-icon fa-fade"></i>
+            <div>
+              <h3 class="contact-title">Linkedin</h3>
+              <a class="contact-subtitle" href="https://www.linkedin.com/in/vignesh-c-/" target="_blank">@vignesh-c</a>
+            </div>
+          </div>
         </div>
-      </footer>
-    </main>
+      </div>
+    </section>
 
-    <a href="#home" class="scrollup" id="scroll-up">
-      <i class="fa-solid fa-arrow-up scroll-up-icon fa-beat-fade"></i>
-    </a>
-    <script src="Libraries/swiper-bundle.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/9b634c15bd.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="footer-container container grid">
+          <div>
+            <h1 class="footer-title" data-aos="fade-down" data-aos-duration="1000">vignesh</h1>
+            <span class="footer-subtitle">Frontend developer</span>
+          </div>
+          <ul class="footer-links" data-aos="fade-down" data-aos-duration="1300">
+
+            <li>
+              <a href="#portfolio" class="footer-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer-socials" data-aos="fade-down" data-aos-duration="1600">
+            <a href="https://www.linkedin.com/in/vignesh-c-/" target="_blank" class="footer-social">
+              <i class="fa-brands fa-linkedin-in fa-fade"></i>
+            </a>
+            <a href="https://github.com/vignesh-vc/VIGNESH" target="_blank" target="_blank" class="footer-social">
+              <i class="fa-brands fa-github fa-fade"></i>
+            </a>
+
+          </div>
+        </div>
+        <p class="footer-copy" data-aos="fade-down" data-aos-duration="1000">@copyright Designed Devloped by Vignesh❤️
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <a href="#home" class="scrollup" id="scroll-up">
+    <i class="fa-solid fa-arrow-up scroll-up-icon fa-beat-fade"></i>
+  </a>
+  <script src="Libraries/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9b634c15bd.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
   </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
